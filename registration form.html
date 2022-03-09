@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration Form</title>
+</head>
+<body>
+<center><h1>Registration Form</h1></center>
+<hr>
+<form>
+    <label>First name:</label>
+    <input type="text" name="First name"   size="19" required><br><br>
+    <label>Last Name:</label>
+    <input type="text" name="Last name"   size="19" required><br><br>
+    <label> Nick Name:</label>
+    <input type="text" name="Nick name"  size="19" required><br><br>
+    <label> e-mail:</label>
+    <input type="text" name="e-mail"  size="19" required><br><br>
+    <label>Password:</label>
+    <input type="password" name="Password" id="Password" required><br><br>
+    <label>Date of Birth:</label>
+    <input type="text" name="date of birth" id="Password" required><br><br>
+
+    <label>Gender:</label>
+    <br>
+    <input type="radio" name="gender" value="Male" checked>Male
+    <input type="radio" name="gender" value="Female" checked>Female
+    <input type="radio" name="gender" value="other" checked>Others
+    <br><br>
+    <label>Mobile:</label>
+   
+    <input type="tel" pattern="[0-9]{5}-[0-9]{5}"  size="10" name="PhoneNumber" required>
+    <br><br>
+    <label> Address:</label>
+    <textarea rows="4" cols="28">
+        
+    </textarea>
+    <br><br>
+    
+    
+    <button type="submit" class="Submit">Submit</button>
+    <button>reset</button>
+</form>
+
+</body>
+</html>
